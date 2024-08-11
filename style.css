@@ -5,13 +5,23 @@
     box-sizing: border-box;
 }
 
+header,
+section h2{
+    font-family: "Bungee", sans-serif;
+}
+
+body{
+    font-family: "Roboto Condensed", sans-serif; 
+}
+
+
 header{
     padding: 16px;
     background-color: #182c61;
     color: #ecf0f1;
 }
 header nav li{
-    font-size: 24px;
+    font-size: 18px;
     margin-left: 16px;
     display: inline;
 }
@@ -24,8 +34,42 @@ header nav li a{
     width: 100%;
     margin: 0 auto;
 }
-header .container{
+header .container,
+section .container{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+header h1,
+section h2{
+    font-weight: normal;
+}
+
+
+.brands_list img{
+    height: 24px;
+    display: inline;
+}
+.brands_list li{
+    display: inline;
+    margin-right: 8px;
+}
+section .container{
+    align-items: flex-start;
+}
+section{
+    padding: 24px;
+}
+section h2{
+    margin-bottom: 16px;
+}
+section p{
+    margin-bottom: 8px;
+    text-align: justify;
+}
+section{
+    color: #182c61;
+}
+.store_front{
+    margin-right: 32px;
 }
