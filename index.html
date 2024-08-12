@@ -15,14 +15,14 @@
             <h1>GAME SHOP </h1>
             <nav>
                 <ul>
-                    <li><a href="#">SOBRE A LOJA</a></li>
-                    <li><a href="#">CONTATO</a></li>
+                    <li><a href="#about">SOBRE A LOJA</a></li>
+                    <li><a href="#contact">CONTATO</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section>
+        <section id="about">
             <div class="container">
                 <img class="store_front" src="images\loja.jpg" alt="Fachada da loja">
                 <div>
@@ -48,16 +48,58 @@
             </div>
 
         </section>
-        <section>
+        <section id="contact">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="contact-method">
+                    <div>
+                        <h3>Fale conosco</h3>
+                        <form action="">
+                            <input type="text" placeholder="Nome" required>
+                            <input type="email" placeholder="Email" required>
+                            <input type="tel" placeholder=" Telefone (opicional)">
+                            <textarea name="" id="" placeholder="Deixe Sua Mensagem." required></textarea>
+                            <button type="submit">Enviar</button>
+                        </form>
+                    </div>
+                    <div>
+                        <h3>Nos acompanhe</h3>
+                        <ul class="social-link">
+                            <li>
+                                <a href="#" title="Siga-nos no Instragran.">
+                                    <img src="./images/instagram.png" alt="Logo do Instragran">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Siga-nos no Facebook.">
+                                    <img src="./images/facebook.png" alt="Logo do Facebook">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" title="Viste nosso canal.">
+                                    <img src="./images/youtube.png" alt="Logo do Youtube">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Venha ate nós.</h3> 
+                        <p>
+                            Rua Javascrit nº124 - Vila HTML Sâo Paulo/SP.
+                        </p>
+                    </div>
+                </div>
+                
+            </div>
 
         </section>
 
     </main>
     <footer>
-        <dir>
-            <h3>
-
-            </h3>
+        <dir class="container">
+            <p>
+                &copy; GAME SHOP -Todos os direitos reservados - 2024
+            </p>
         </dir>
     </footer>
     
